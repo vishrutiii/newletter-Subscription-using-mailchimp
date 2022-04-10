@@ -16,8 +16,10 @@ app.get("/", function(req, res){
 });
 
 mailchimp.setConfig({
-     apiKey: "enter your api key",
-     server: "us20"
+     apiKey: "", 
+    //enter the apikey above in the field.
+     server: ""
+    //enter the server 
 });
 
 app.post("/", function(req, res){
